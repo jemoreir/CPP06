@@ -1,11 +1,11 @@
 .SILENT:
 
-NAME = ex03
+NAME = ex00
 
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRCS = 	main.cpp 
+SRCS = 	main.cpp ScalarConverter.cpp
 OBJ = $(SRCS:.cpp=.o)
 
 all: $(NAME)
